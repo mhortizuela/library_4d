@@ -51,3 +51,22 @@ All endpoints (except login) require a **Bearer Token** for authentication.
   "expiresIn": 3600
 }`
 
+# Adding Authors
+
+An endpoint for adding authors
+
+**Endpoint:** `POST /authors/add`
+
+**Request:**
+
+`
+{
+  "author": "name"
+}`
+
+**Result:**
+`{
+  "status": "success",
+  "data": null
+}`
+
